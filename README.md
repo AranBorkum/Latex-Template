@@ -21,6 +21,13 @@ This templated can be downloaded from  [here](https://github.com/AranBorkum/Late
 $ cd /where/you/want/the/files/to/be/
 $ git clone https://github.com/AranBorkum/Latex-Template.git
 ```
+
+### Bibliography
+
+It is recomended that you use bibtex to make your bibliography. The structure by which a bibtex file is made can be complicated, therefore it is recomended that you use some kind of front end GUI, such as BibDesk. The file bibliography.bib is included in this folder and so you can use that as a reference on how to construct a bibtex style reference. Furthermore, there are online generators such as [this](http://www.bibme.org/bibtex).
+
+### Compilation
+
 Your computer or server will require a LaTeX compiler to run the document constructor. My recomendation is MacTex for OSX, however, you can also use Overleaf or your preferred variant. It is also possible to compile this document through the command-line using the command:
 
 ```sh
