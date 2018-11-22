@@ -25,9 +25,11 @@ Your computer or server will require a LaTeX compiler to run the document constr
 
 ```sh
 $ pdflatex main.tex
+$ bibtex main
+$ pdflatex main.tex
+$ pdflatex main.tex
 ```
-
-This will produce a file `main.pdf`, amongst a number of other files which are not important.
+This may look like a strange sequence of commands, but LaTeX is strange. This will produce a file `main.pdf`, amongst a number of other files which are not important.
 
 ### Issues and Development
 
