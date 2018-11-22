@@ -15,13 +15,13 @@ This text you see here is *actually* written in Markdown! To get a feel for Mark
 ### Initialisation
 
 This templated can be downloaded from  [here](https://github.com/AranBorkum/Latex-Template). Addionally, if you have a GitHub account you can get one [here](https://github.com/) and then clone the template directory using the command
-```bash
+```sh
 $ cd /where/you/want/the/files/to/be/
 $ git clone https://github.com/AranBorkum/Latex-Template.git
 ```
 Your computer or server will require a LaTeX compiler to run the document constructor. My recomendation is MacTex for OSX, however, you can also use Overleaf or your preferred variant. It is also possible to compile this document through the command-line using the command:
 
-```bash
+```sh
 $ pdflatex main.tex
 ```
 
