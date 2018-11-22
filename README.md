@@ -1,3 +1,5 @@
+<p align="center"><img width=12.5% src="https://github.com/AranBorkum/Latex-Template/blob/master/Pictures/sussexLogo.png"></p>
+
 # Latex-Template for disertations/thesis
 ![Latex](https://img.shields.io/badge/latex-current-brightgreen.svg) ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)      ![issues](https://img.shields.io/badge/issues-none-brightgreen.svg) ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg) ![Licence](https://img.shields.io/badge/licence-to_thrill-brightgreen.svg) 
 
