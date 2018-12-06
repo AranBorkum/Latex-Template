@@ -11,9 +11,6 @@
   - All sections formed seperately to aid organisation
   - Fancy header pre-formatted as an added stylistic feature
 
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
-
 ### Initialisation
 
 This templated can be downloaded from  [here](https://github.com/AranBorkum/Latex-Template). Addionally, if you have a GitHub account you can get one [here](https://github.com/) and then clone the template directory using the command
