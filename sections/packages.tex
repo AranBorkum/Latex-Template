@@ -1,13 +1,24 @@
 \usepackage{geometry} 
 \usepackage{imakeidx}
- \geometry{
- a4paper,
- left=15mm,
- top=20mm,
- right=15mm,
- bottom=20mm
- }               						
+% \geometry{
+% a4paper,
+% left=30mm,
+% top=30mm,
+% right=30mm,
+% bottom=30mm
+% }               						
+\geometry{
+a4paper,
+top=3.5cm,
+bottom=4cm,
+left=2.5cm,
+right=4cm, 
+headsep=10pt
+}               						
+\flushbottom
+
 \geometry{letterpaper}                   		
+\usepackage{mathtools}
 \usepackage{graphicx}
 \usepackage{comment}				
 \usepackage{amsmath}						
@@ -27,18 +38,20 @@
 \usepackage{rotating}
 \fancyhf{}
 \fancyhead[r]{\leftmark}
-\fancyhead[l]{Aran N. Borkum}
+% \fancyhead[l]{Aran N. Borkum}
 \fancyfoot[c]{\thepage}
 \usepackage{hyperref}
+\usepackage{cleveref}
 
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
 \usepackage{color}
+\usepackage{setspace}
  
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{1, 1, 1} %{0.95,0.95,0.92}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
  
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{backcolour},   
@@ -51,10 +64,32 @@
     breaklines=true,                 
     captionpos=b,                    
     keepspaces=true,                 
-    numbers=left,                    
+    %numbers=left,                    
     numbersep=5pt,                  
     showspaces=false,                
     showstringspaces=false,
     showtabs=false,                  
     tabsize=2
 }
+
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+\setstretch{0.75}
+
+\newcommand{\multiref}[2]{\ref{#1}-\ref{#2}}
+\newcommand{\doubleref}[2]{\ref{#1} and \subref{#2}}
+\newcommand{\LArSoft}{\texttt{LArSoft}}
+\newcommand{\Decayzero}{\texttt{Decay0}}
+\newcommand{\RadioRock}{\texttt{RadioRock}}
+\newcommand{\MARLEY}{\texttt{MARLEY}}
+\newcommand{\TGraph}{\texttt{TGraph}}
+
+\doublespacing
